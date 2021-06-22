@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = "en" dir="1tr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Task1RA.css">
+	<title>Robort Arm! </title>
+</head>
+<h1 style="color: white" > Robort Arm! </h1>
+<body>
+
+
+	<div class= "range1">
+  <input type="range" min="1" max="180" value="20" class="slider" id="myRange" name= "R">
+  <p>Value: <span id="demo"></span></p>
+
+  <input type="range" min="1" max="180" value="40" class="slider" id="myRange1" name= "R1">
+  <p>Value: <span id="demo1"></span></p>
+
+<input type="range" min="1" max="180" value="60" class="slider" id="myRange2" name= "R2">
+<p>Value: <span id="demo2"></span></p>
+
+  <input type="range" min="1" max="180" value="90" class="slider" id="myRange3" name= "R3">
+  <p>Value: <span id="demo3"></span></p>
+
+  <input type="range" min="1" max="180" value="120" class="slider" id="myRange4" name= "R4">
+  <p>Value: <span id="demo4"></span></p>
+
+
+  <input type="range" min="1" max="180" value="150" class="slider" id="myRange5" name= "R5">
+  <p>Value: <span id="demo5"></span></p>
+
+</div>
+
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+
+
+
+var slider2 = document.getElementById("myRange1");
+var output2 = document.getElementById("demo1");
+
+var slider3 = document.getElementById("myRange2");
+var output3 = document.getElementById("demo2");
+
+var slider4 = document.getElementById("myRange3");
+var output4 = document.getElementById("demo3");
+
+var slider5 = document.getElementById("myRange4");
+var output5 = document.getElementById("demo4");
+
+var slider6 = document.getElementById("myRange5");
+var output6 = document.getElementById("demo5");
+
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+
+slider2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+
+
+slider3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+
+
+slider4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+
+
+slider5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+
+slider6.oninput = function() {
+  output6.innerHTML = this.value;
+}
+
+</script>
+
+
+
+<div class = "center">
+	
+		<div class = "outter circle" >
+			<button> ON </button>
+      <button> OFF </button>
+			<button> SAVE </button>
+			<span></span>
+			<span></span>
+		</div> </div>
+
+
+</body>
+</html>
